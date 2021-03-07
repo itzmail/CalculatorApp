@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
     },
     calculation: {
         flex: 2,
-        backgroundColor: 'red',
+        backgroundColor: '#0c3107f0',
         justifyContent: 'center',
         alignItems: 'flex-end'
     },
@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
     },
     result: {
         flex: 1,
-        backgroundColor: 'green',
+        backgroundColor: 'black',
         justifyContent: 'center',
         alignItems: 'flex-end'
     },
@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
     },
     numbers: {
         flex: 3,
-        backgroundColor: 'yellow'
+        backgroundColor: '#1c860ede'
     },
     operation: {
         flex: 1,
