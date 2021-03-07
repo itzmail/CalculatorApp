@@ -4,17 +4,38 @@ const styles = StyleSheet.create({
     container: {
         flex: 1
     },
-    result: {
-        flex: 2,
-        backgroundColor: 'red'
-    },
     calculation: {
+        flex: 2,
+        backgroundColor: 'red',
+        justifyContent: 'center',
+        alignItems: 'flex-end'
+    },
+    calculationText: {
+        color: 'white',
+        fontSize: 40
+    },
+    result: {
         flex: 1,
-        backgroundColor: 'green'
+        backgroundColor: 'green',
+        justifyContent: 'center',
+        alignItems: 'flex-end'
+    },
+    resultText: {
+        fontSize: 30,
+        color: 'white'
     },
     buttons: {
         flex: 7,
         flexDirection: 'row'
+    },
+    btn: {
+        flex: 1,
+        alignItems: 'center',
+        alignSelf: 'stretch',
+        justifyContent: 'center'
+    },
+    btnText: {
+        fontSize: 30
     },
     numbers: {
         flex: 3,
@@ -22,8 +43,15 @@ const styles = StyleSheet.create({
     },
     operation: {
         flex: 1,
+        justifyContent: 'space-around',
         backgroundColor: 'black'
-    }
+    },
+    row: {
+        flexDirection: 'row',
+        flex: 1,
+        justifyContent: 'space-around',
+        alignItems: 'center'
+    },
 })
 
 export default styles;
