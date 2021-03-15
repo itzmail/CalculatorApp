@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
         alignItems: 'flex-end'
     },
     calculationText: {
-        color: 'white',
+        color: 'black',
         fontSize: 40
     },
     result: {
